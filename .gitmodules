@@ -4,9 +4,6 @@
 [submodule "OpenClash"]
 	path = OpenClash
 	url = https://github.com/vernesong/OpenClash.git
-[submodule "smartdns"]
-	path = smartdns
-	url = https://github.com/pymumu/openwrt-smartdns.git
 [submodule "luci/luci-app-smartdns"]
 	path = luci/luci-app-smartdns
 	url = https://github.com/pymumu/luci-app-smartdns.git
