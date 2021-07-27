@@ -1,0 +1,15 @@
+[submodule "luci/luci-app-adguardhome"]
+	path = luci/luci-app-adguardhome
+	url = https://github.com/kongfl888/luci-app-adguardhome.git
+[submodule "OpenClash"]
+	path = OpenClash
+	url = https://github.com/vernesong/OpenClash.git
+[submodule "smartdns"]
+	path = smartdns
+	url = https://github.com/pymumu/openwrt-smartdns.git
+[submodule "luci/luci-app-smartdns"]
+	path = luci/luci-app-smartdns
+	url = https://github.com/pymumu/luci-app-smartdns.git
+[submodule "luci/luci-theme-argon"]
+	path = luci/luci-theme-argon
+	url = https://github.com/jerrykuku/luci-theme-argon.git
