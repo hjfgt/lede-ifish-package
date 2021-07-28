@@ -1,6 +1,6 @@
 [submodule "luci/luci-app-adguardhome"]
 	path = luci/luci-app-adguardhome
-	url = https://github.com/kongfl888/luci-app-adguardhome.git
+	url = https://github.com/iccfish/luci-app-adguardhome.git
 [submodule "OpenClash"]
 	path = OpenClash
 	url = https://github.com/vernesong/OpenClash.git
