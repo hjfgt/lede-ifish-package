@@ -10,3 +10,6 @@
 [submodule "luci/luci-theme-argon"]
 	path = luci/luci-theme-argon
 	url = https://github.com/jerrykuku/luci-theme-argon.git
+[submodule "fw876"]
+	path = fw876
+	url = https://github.com/fw876/helloworld
