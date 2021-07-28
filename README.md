@@ -24,7 +24,7 @@ echo 'src-git lede_ifish https://github.com/iccfish/lede-ifish-package.git' >>fe
 ./scripts/feeds update -a
 ./scripts/feeds install -a -f
 
-# 选择编译脚本，本仓库自带了AX6和AX3600的
+# 选择编译脚本，本仓库自带了AX6、AX3600和AX9000的
 cp ./feeds/lede_ifish/ax6.config ./.config
 
 # 更新配置
