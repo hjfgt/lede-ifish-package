@@ -25,3 +25,6 @@
 [submodule "luci/luci-theme-darkmatter"]
 	path = luci/luci-theme-darkmatter
 	url = https://github.com/apollo-ng/luci-theme-darkmatter.git
+[submodule "package/OpenAppFilter"]
+	path = package/OpenAppFilter
+	url = https://github.com/destan19/OpenAppFilter.git
