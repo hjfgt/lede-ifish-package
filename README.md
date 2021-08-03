@@ -24,8 +24,10 @@ echo 'src-git lede_ifish https://github.com/iccfish/lede-ifish-package.git' >>fe
 ./scripts/feeds update -a
 ./scripts/feeds install -a -f
 
-# 选择编译脚本，本仓库自带了AX6、AX3600和AX9000的
-cp ./feeds/lede_ifish/ax6.config ./.config
+# 选择编译脚本，本仓库自带了AX6、AX3600和AX9000的，参数跟上型号即可
+bash ./feeds/lede_ifish/cpconfig.sh ax6
+# 如果需要打包京东签到，执行以下脚本
+#bash ./feeds/lede_ifish/app_jd.sh
 
 # 更新配置
 make defconfig
