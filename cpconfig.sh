@@ -1,3 +1,5 @@
 #!/bin/bash
 
-cat conf/$1.config conf/base.config >.config
+sub=$(dirname $0)
+
+cat $sub/conf/$1.config $sub/conf/base.config >.config

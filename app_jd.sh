@@ -1,3 +1,3 @@
 #!/bin/bash
-
-cat conf/jdbouns.config >>.config
+sub=$(dirname $0)
+cat $sub/conf/jdbouns.config >>.config
