@@ -13,3 +13,21 @@
 [submodule "fw876"]
 	path = fw876
 	url = https://github.com/fw876/helloworld
+[submodule "luci/luci-theme-infinityfreedom"]
+	path = luci/luci-theme-infinityfreedom
+	url = https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom
+[submodule "luci/luci-theme-rosy"]
+	path = luci/luci-theme-rosy
+	url = https://github.com/rosywrt/luci-theme-rosy.git
+[submodule "luci/luci-theme-argon-mc"]
+	path = luci/luci-theme-argon-mc
+	url = https://github.com/sypopo/luci-theme-argon-mc.git
+[submodule "luci/luci-theme-tano"]
+	path = luci/luci-theme-tano
+	url = https://github.com/tano-systems/luci-theme-tano.git
+[submodule "luci/luci-theme-netgear"]
+	path = luci/luci-theme-netgear
+	url = https://github.com/tracemouse/luci-theme-netgear.git
+[submodule "luci/luci-theme-darkmatter"]
+	path = luci/luci-theme-darkmatter
+	url = https://github.com/apollo-ng/luci-theme-darkmatter.git
