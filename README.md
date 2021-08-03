@@ -34,6 +34,10 @@ make defconfig
 # 下载，建议挂梯子，否则可能有失败的情况
 make download -j$(($(nproc) + 1))
 
+# 部分优化选项
+sed -i 's/net.netfilter.nf_conntrack_max=.*/net.netfilter.nf_conntrack_max=65535/g' package/kernel/linux/files/sysctl-nf-conntrack.conf
+sed -i 's/192.168.1.1/172.16.1.1/g' package/base-files/files/bin/config_generate
+
 # 编译。首次编译时间较长，需要联网下载源码，建议挂梯子；偶有失败可重试
 make -j1 V=s
 # 如出现错误类似“po2lmo: command not found”的错误可能是编译顺序的问题，可在出现错误后手动运行以下编译命令：
